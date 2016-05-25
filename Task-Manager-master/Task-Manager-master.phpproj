@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Task-Manager-master</Name>
+    <ProjectGuid>{5ab2ceb4-1328-41c6-9ae7-afdb8d305801}</ProjectGuid>
+    <RootNamespace>Task-Manager-master</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="angular-directory\" />
+    <Folder Include="angular-directory\controllers\" />
+    <Folder Include="angular-directory\scripts\" />
+    <Folder Include="angular-directory\scripts\AngularJS\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\public\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\public\css\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\public\images\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\public\images\metallic\" />
+    <Folder Include="angular-directory\scripts\zebra-date-picker\public\javascript\" />
+    <Folder Include="angular-directory\styles\" />
+    <Folder Include="angular-directory\views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="angular-directory\app.js" />
+    <Content Include="angular-directory\controllers\application_controller.js" />
+    <Content Include="angular-directory\controllers\task_controller.js" />
+    <Content Include="angular-directory\index.html" />
+    <Content Include="angular-directory\scripts\AngularJS\angular-animate.js" />
+    <Content Include="angular-directory\scripts\AngularJS\angular-route.js" />
+    <Content Include="angular-directory\scripts\AngularJS\angular-spinners.min.js" />
+    <Content Include="angular-directory\scripts\AngularJS\angular.min.js" />
+    <Content Include="angular-directory\scripts\AngularJS\ui-bootstrap-tpls-0.14.3.min.js" />
+    <Content Include="angular-directory\scripts\bootstrap.min.js" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\basic.html" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\css\bootstrap.css" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\css\index.html" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\css\reset.css" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\css\style.css" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\calendar-disabled.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\calendar.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\metallic\default-date.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\metallic\disabled-date.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\metallic\header.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\metallic\selected-date.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\images\themes.png" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\index.html" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\javascript\core.js" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\javascript\index.html" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\javascript\jquery-1.12.0.js" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\javascript\zebra_datepicker.js" />
+    <Content Include="angular-directory\scripts\zebra-date-picker\public\javascript\zebra_datepicker.src.js" />
+    <Content Include="angular-directory\styles\style.css" />
+    <Content Include="angular-directory\views\404.html" />
+    <Content Include="angular-directory\views\tasks.html" />
+    <Content Include="index.html" />
+  </ItemGroup>
+</Project>
